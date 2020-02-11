@@ -32,7 +32,9 @@ However, CRA comes with linting and testing tools already configured, and it's f
 
 ### How I would improve my React app if I had more time
 
-I would implement the app using MobX/Redux state management. As I am less familiar with MobX/Redux, I had built the app with Hooks which I'm more experienced in. The other thing that I would like to improve is the overall styling of the app. For example, I would have put in icons for the "Edit" and "Delete" buttons, prettier styling for "Add Character" column.
+I would implement the app using MobX/Redux state management. As I am less familiar with MobX/Redux, I had built the app with Hooks which I'm more experienced in. The other thing that I would like to improve is the overall styling of the app. For example, I would have put in icons for the "Edit" and "Delete" buttons, adding prettier styling for "Add Character" row.
+
+I would also implement some basic validation to the "Add Character" row that would prevent us from clicking the button until all the fields were filled out, or certain criteria such that only numbers can be added to the "Height" and "Mass" column. Lastly, to return an empty string for all 4 inputs after we click the "Add Character" button. 
 
 
 
